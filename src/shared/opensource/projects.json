@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "id": "",
+      "name": "SEU CV Generator",
+      "createdAt": "",
+      "url": "https://github.com/Safaeat/SEU-CV-Generator-",
+      "description": "Gained hands-on experience in website development through the SEU CV Generator project, involving advanced frontend design and backend development.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "php",
+          "iconifyClass": "vscode-icons:file-type-php"
+        },
+        {
+          "name": "html",
+          "iconifyClass": "vscode-icons:file-type-html"
+        },
+        {
+          "name": "mysql",
+          "iconifyClass": "logos:mysql"
+        },
+        {
+          "name": "Github",
+          "iconifyClass": "icon-park:github"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "My Portfolio",
+      "createdAt": "",
+      "url": "###",
+      "description": "My Portfolio Website, the site you are exploring right now.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "GraphQL",
+          "iconifyClass": "vscode-icons:file-type-graphql"
+        },
+        {
+          "name": "Styled Components",
+          "iconifyClass": "vscode-icons:file-type-styled"
+        },
+        {
+          "name": "Github",
+          "iconifyClass": "icon-park:github"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "name": "Movie Recommendation System",
+      "createdAt": "",
+      "url": "###",
+      "description": "Movie Recommendation, Exploratory Data analysis & Data visualization project using Netflix Data",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "SQL",
+          "iconifyClass": "logos:mysql"
+        },
+        {
+          "name": "Numpy",
+          "iconifyClass": "logos:numpy"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "devicon-plain:pandas-wordmark"
+        }
+      ]
+    }
+  ]
+}

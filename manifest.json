@@ -1,0 +1,9 @@
+{
+  "name": "Safaeat Molla Portfolio",
+  "background_color": "#000000",
+  "display": "standalone",
+  "icons": [],
+  "short_name": "Safaeat Portfolio",
+  "start_url": ".",
+  "theme_color": "#000000"
+}
