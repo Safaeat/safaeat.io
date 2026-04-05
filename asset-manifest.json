@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/safaeat.io/static/css/main.b7133614.css",
-    "main.js": "/safaeat.io/static/js/main.b00b88dd.js",
+    "main.js": "/safaeat.io/static/js/main.a3179818.js",
     "static/media/dsc_logo.png": "/safaeat.io/static/media/dsc_logo.7ea1b65301acaee3a078.png",
     "static/media/fa-solid-900.svg": "/safaeat.io/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/safaeat.io/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -69,10 +69,10 @@
     "static/media/talksCardBack.svg": "/safaeat.io/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "static/media/NewFile": "/safaeat.io/static/media/NewFile.31d6cfe0d16ae931b73c",
     "main.b7133614.css.map": "/safaeat.io/static/css/main.b7133614.css.map",
-    "main.b00b88dd.js.map": "/safaeat.io/static/js/main.b00b88dd.js.map"
+    "main.a3179818.js.map": "/safaeat.io/static/js/main.a3179818.js.map"
   },
   "entrypoints": [
     "static/css/main.b7133614.css",
-    "static/js/main.b00b88dd.js"
+    "static/js/main.a3179818.js"
   ]
 }
