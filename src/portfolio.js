@@ -17,37 +17,38 @@ const seo = {
 const greeting = {
   title: "Safaeat Molla",
   logo_name: "Safaeat",
-  nickname: "Data Analyst | Django Developer",
+  nickname: ".Net Developer | Data Analyst",
   subTitle:
-    "Passionate Data Analyst and Machine Learning specialist with Django expertise, focused on building impactful AI solutions and scalable web applications. Eager to tackle challenging projects and contribute to innovative developments in data-driven technologies.",
+    ".NET developer with 3 months of internship experience building scalable web applications and backend systems. Also a Research Assistant with 2 years of experience in machine learning and data-driven research, contributing to two IEEE publications.",
   resumeLink: "###",
   githubProfile: "https://github.com/Safaeat",
+  profile_image: require("./assests/images/GR.jpg"),
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/Safaeat",
-    fontAwesomeIcon: "fa-github", 
-    backgroundColor: "#181717", 
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/safaeat-molla-07660525a/",
-    fontAwesomeIcon: "fa-linkedin-in", 
-    backgroundColor: "#1877F2", 
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#1877F2",
   },
   {
     name: "Gmail",
     link: "mailto:info.safaeatmolla@gmail.com",
-    fontAwesomeIcon: "fa-google", 
-    backgroundColor: "#D14836", 
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/sm_araffat/",
-    fontAwesomeIcon: "fa-instagram", 
-    backgroundColor: "#E4405F", 
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
   },
   {
     name: "Research Gate",
@@ -58,13 +59,90 @@ const socialMediaLinks = [
   {
     name: "X-Twitter",
     link: "https://x.com/SAraffat",
-    fontAwesomeIcon: "fa-x-twitter", 
-    backgroundColor: "#000000", 
+    fontAwesomeIcon: "fa-x-twitter",
+    backgroundColor: "#000000",
   },
 ];
 
 const skills = {
   data: [
+    {
+      title: ".Net Developer",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive and dynamic web applications using ASP.NET and modern front-end technologies",
+        "⚡ Learning backend systems and RESTful APIs using C# and ASP.NET",
+        "⚡ Learning relational databases and integrating cloud services for scalable applications",
+      ],
+      softwareSkills: [
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
+          style: {
+            color: "#68217A",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: ".NET 8",
+          fontAwesomeClassname: "simple-icons:dotnet",
+          style: {
+            color: "#6C4BFF",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#7952B3",
+          },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "devicon:tailwindcss",
+          style: {
+            backgroundColor: "transparent",
+            color: "#38B2AC",
+          },
+        },
+        {
+          skillName: "Visual Studio 2022",
+          fontAwesomeClassname: "simple-icons:visualstudio",
+          style: {
+            color: "#5C2D91",
+          },
+        },
+        {
+          skillName: "SQL Server Management Studio 21",
+          fontAwesomeClassname: "simple-icons:microsoftsqlserver",
+          style: {
+            color: "#CC2927",
+          },
+        },
+        /*{
+                    skillName: "MongoDB",
+                    fontAwesomeClassname: "devicon:mongodb-wordmark",
+                    style: {
+                        backgroundColor: "transparent",
+                        color: "#47A248",           // MongoDB green
+                    },
+                },*/
+      ],
+    },
     {
       title: "AI, ML & Data Analysis",
       fileName: "DataScienceImg",
@@ -110,64 +188,14 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-        {
+        /*{
           skillName: "Power BI",
           fontAwesomeClassname: "simple-icons:powerbi",
           style: {
             backgroundColor: "transparent",
             color: "#F2C811",
           },
-        },
-      ],
-    }, 
-    {  
-      title: "Django Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive websites front end using JS, React",
-        "⚡ Experience of hosting websites on servers and cloud platforms",
-        "⚡ Developing Web backend in Django",
-      ],
-      softwareSkills: [
-        {
-         skillName: "Django",
-         fontAwesomeClassname: "simple-icons:django",
-         style: {
-         backgroundColor: "#092E20",
-           color: "#ffffff",
-         },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "devicon:tailwindcss",
-          style: {
-            backgroundColor: "transparent",
-            color: "#38B2AC",          // Tailwind teal
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "devicon:mongodb-wordmark",
-          style: {
-            backgroundColor: "transparent",
-            color: "#47A248",           // MongoDB green
-          },
-        },
+        },*/
       ],
     },
   ],
@@ -175,8 +203,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -210,40 +237,42 @@ const degrees = {
       duration: "Passing year - 2017",
       descriptions: [
         "🔺In school, I had the chance to learn many different subjects. At the secondary level, I got the opportunity to study in the Science department.",
-        "⚡I also had the opportunity to take part in extracurricular activities, such as science fairs and annual competitions, where I participated and received awards for my projects."
+        "⚡I also had the opportunity to take part in extracurricular activities, such as science fairs and annual competitions, where I participated and received awards for my projects.",
       ],
-      website_link: "https://en.wikipedia.org/wiki/Bandura_Holy_Cross_School_%26_Collage",
+      website_link:
+        "https://en.wikipedia.org/wiki/Bandura_Holy_Cross_School_%26_Collage",
     },
   ],
 };
-
-
 
 const certifications = {
   certifications: [
     {
       title: "Python Data Structures",
-      subtitle: "Introduced core data structures of Python programming language",
+      subtitle:
+        "Introduced core data structures of Python programming language",
       logo_path: "course.png",
-      certificate_link: "https://www.coursera.org/account/accomplishments/verify/ZVKN508Y3KSG",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/ZVKN508Y3KSG",
       alt_name: "University of Michigan",
-      color_code: "#ffffff",  
+      color_code: "#ffffff",
     },
     {
       title: "Excel Basics for Data Analysis",
       subtitle: "Gained working knowledge of Excel for data analysis",
       logo_path: "ibm_logo.png",
-      certificate_link: "#", 
+      certificate_link: "#",
       alt_name: "IBM",
-      color_code: "#ffffff", 
+      color_code: "#ffffff",
     },
     {
       title: "Programming for Everybody",
       subtitle: "Learned basics of computer programming using Python",
       logo_path: "course.png",
-      certificate_link: "https://www.coursera.org/account/accomplishments/verify/5LV8NHUZDSTT",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/5LV8NHUZDSTT",
       alt_name: "University of Michigan",
-      color_code: "#ffffff", 
+      color_code: "#ffffff",
     },
   ],
 };
@@ -253,7 +282,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work / Internship",
   description:
-    " I am currently looking for a job as a Django developer or Data Analysis in a major corporate environment. If you have opportunities aligned with my skills, projects, and experience, I would be delighted to connect and discuss how I can contribute to your team, project, or organization.",
+    " I am currently looking for a job as a .Net developer or Data Analyst in a major corporate environment. If you have opportunities aligned with my skills, projects, and experience, I would be delighted to connect and discuss how I can contribute to your team, project, or organization.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -275,17 +304,20 @@ const experience = {
     },
     {
       title: "Internships",
+
       experiences: [
         {
-          title: "Office of IT Intern",
-          company: "Southeast University",
-          company_url: "https://new.seu.edu.bd/",
-          logo_path: "srm logo.png",
-          duration: "March 2024 - July 2024",
-          location: "Tejgaon, Dhaka",
-          description:
-            " I developed a web-based CV generator for SEU students with features like real-time preview, template selection, and email verification for secure access. I also gained practical experience in web development, software testing, and data management within inventory systems and machine learning applications.",
-            color: "#000000",
+          title: "ASP.Net Developer Trainee",
+          company: "E-Group",
+          company_url: "https://e-groupltd.com/",
+          logo_path: "egroup.png",
+          duration: "August 2025 - November 2025",
+          location: "Uttara, Dhaka",
+          descBullets: [
+            "Learn hands-on experience with ASP.NET Core, Entity Framework, MVC architecture, and other related tools.",
+            "Worked on a Smart Attendance Management System with Payroll Integration and assisted in backend development, testing, and database operations.",
+          ],
+          color: "#000000",
         },
       ],
     },
@@ -296,8 +328,7 @@ const experience = {
           title: "Treasurer",
           company: "Southeast Computer Club",
           company_url: "https://seucc.vercel.app/",
-          location:
-            "Southest University, Tejgaon, Dhaka",
+          location: "Southest University, Tejgaon, Dhaka",
           description:
             " As an executive, we organized workshops, programming contests, and volunteering events in the tech field, fostering skill development and community engagement among department of CSE students.",
           color: "#D83B01",
@@ -313,10 +344,12 @@ const experience = {
           company: "Southeast University",
           company_url: "###",
           logo_path: "",
-          duration: "January 2023 - July 2024",
+          duration: "January 2023 - February 2026",
           location: "Southeast University, Tejgaon, Dhaka",
-          description:
-            " Conducted research on machine learning to develop a hybrid recommendation system for book suggestions, addressing the cold start problem.",
+          descBullets: [
+            "Developed a hybrid recommendation system for book suggestions addressing the cold start problem (Published in IEEE).",
+            "Researched ensemble CNN and Explainable AI for breast cancer classification from histopathological images, achieving 98.48% accuracy (Accepted for presentation at IEEE QPAIN 2026).",
+          ],
           color: "#000000",
         },
       ],
@@ -336,11 +369,21 @@ export const publications = {
   data: [
     {
       id: "1",
-      name: "Hybrid Recommendation Systems using Adaptive Clustering to address Cold start problems(IEEE)",
+      name:
+        "Hybrid Recommendation Systems using Adaptive Clustering to address Cold start problems(IEEE)",
       createdAt: " (IEEE Xplore)",
       description:
         "This study combines content-based and collaborative filtering with fuzzy clustering to solve the cold start problem for new users. It enhances the accuracy and personalization of book recommendations by creating multidimensional user profiles and adapting through re-recommendation techniques.",
       url: "https://ieeexplore.ieee.org/document/10698666",
+    },
+    {
+      id: "2",
+      name:
+        "PathEnsemble-XAI: An Ensemble Deep Learning Framework with Explainable AI for Breast Cancer Classification(IEEE)",
+      createdAt: " (IEEE Xplore)",
+      description:
+        "Developed PathEnsemble-XAI, an ensemble-based deep learning framework with explainable AI, combining multiple CNN models to accurately classify breast cancer from histopathological images while providing visual interpretability for clinical trust",
+      url: "####",
     },
   ],
 };
@@ -362,7 +405,8 @@ const contactPageData = {
       <span>
         Be it for a project, a part-time role, a presentation, or simply to say
         hello, I'm always happy and looking forward to hearing from you.
-        <br /> I can help you with Python, ML, SQL, Data Analysis and Django Developmeant.
+        <br /> I can help you with Python, ML, SQL, Data Analysis and Django
+        Developmeant.
       </span>
     ),
   },
@@ -387,7 +431,7 @@ const contactPageData = {
 };
 
 console.log(
-  "%c Designed and Developed by Safaeat Molla⚡",
+  "%c Designed and Developed by⚡",
   "background-image: linear-gradient(90deg,#abc4ff,#D5CFD6); color: black;font-weight:1000;font-size:1rem; padding:20px;"
 );
 

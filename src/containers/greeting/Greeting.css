@@ -4,6 +4,8 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
+/* Greeting Main */
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -19,42 +21,75 @@
 
 .greeting-main {
   display: flex;
+  gap: 40px; /* space between left and right */
+  flex-wrap: wrap;
 }
 
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
+
+/* Title + Nickname + Image container */
+.greeting-header-right {
+  display: flex;
+  align-items: center; /* vertical middle */
+  justify-content: flex-start;
+  gap: 20px; /* space between text and image */
+  flex-wrap: wrap;
+}
+
+/* Text block for vertical spacing */
+.greeting-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* space between title and nickname */
+}
+
+/* Profile Image */
+.profile-img-right {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  object-fit: cover;
+}
+
+/* Buttons */
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
 
+/* Text styling */
 .greeting-text {
-  margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+  margin: 0;
 }
 
 .greeting-nickname {
   font-size: 30px;
-  line-height: 0px;
+  line-height: 1;
   font-family: "Google Sans Bold Italic";
+  margin: 0;
 }
 
 .greeting-text-p {
   font-size: 40px;
   line-height: 40px;
-  margin-right: 40px;
+  margin: 15px 0;
   font-family: "Google Sans Medium";
 }
 
+/* Right side image container */
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
 }
 
+/* Link underline */
 .link-underline {
   border-bottom-width: 0;
   background-image: linear-gradient(transparent, transparent),
@@ -70,41 +105,58 @@
   background-position: 0 100%;
 }
 
-/* Media Query */
+/* Portfolio button container */
+.portfolio-repo-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+/* Media Queries */
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
   }
+
   .greeting-text-p {
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
-  .button-greeting-div {
-    justify-content: space-around;
-  }
-  .greeting-text {
-    font-size: 30px;
-    margin-top: 0px;
-    text-align: center;
-  }
-  .greeting-nickname {
-    font-size: 25px;
-    text-align: center;
-  }
-  .greeting-text-p {
-    font-size: 16px;
-    margin-right: 0px;
-    line-height: normal;
-    text-align: center;
-  }
   .greeting-main {
     display: block;
   }
 
+  .greeting-header-right {
+    justify-content: center;
+  }
+
+  .profile-img-right {
+    width: 60px;
+    height: 60px;
+  }
+
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .greeting-nickname {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .greeting-text-p {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+    margin: 10px 0;
+  }
+
   .portfolio-repo-btn-div {
-    width: 100%;
-    display: flex;
     justify-content: center;
   }
 }

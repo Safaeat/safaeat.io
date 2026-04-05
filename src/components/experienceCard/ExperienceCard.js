@@ -106,7 +106,25 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                {experience.descBullets ? (
+                  <ul style={{ paddingLeft: "20px", margin: 0 }}>
+                    {experience.descBullets.map((bullet, index) => (
+                      <li
+                        key={index}
+                        style={{
+                          marginBottom: "8px",
+                          color: theme.secondaryText,
+                        }}
+                      >
+                        {bullet}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p style={{ color: theme.secondaryText }}>
+                    {experience["description"]}
+                  </p>
+                )}
               </div>
             </div>
           </div>
