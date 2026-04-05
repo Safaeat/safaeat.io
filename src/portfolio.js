@@ -392,7 +392,7 @@ export const publications = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Machine Learnig, Python and Data Analysis projects along with Responsive Websites / Web apps and host - deploy them. I also have a strong desire to build Django related projects.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Machine Learnig and Data Analysis projects along with Responsive Websites and host - deploy them using .Net framework. I have a strong desire to build ASP.NET related projects.",
   avatar_image_path: "projects_image.svg",
 };
 
