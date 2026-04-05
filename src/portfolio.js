@@ -22,7 +22,7 @@ const greeting = {
     ".NET developer with 3 months of internship experience building scalable web applications and backend systems. Also a Research Assistant with 2 years of experience in machine learning and data-driven research, contributing to two IEEE publications.",
   resumeLink: "###",
   githubProfile: "https://github.com/Safaeat",
-  profile_image: require("./assests/images/GR.jpg"),
+  //profile_image: require("./assests/images/GR.jpg"),
 };
 
 const socialMediaLinks = [
@@ -405,7 +405,7 @@ const contactPageData = {
       <span>
         Be it for a project, a part-time role, a presentation, or simply to say
         hello, I'm always happy and looking forward to hearing from you.
-        <br /> I can help you with Python, ML, SQL, Data Analysis and Django
+        <br /> I can help you with Python, ML, SQL, Data Analysis and .NET
         Developmeant.
       </span>
     ),
